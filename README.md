@@ -28,8 +28,8 @@ All movements (except jump) are animation driven.
 ## Schedule input
 Sometimes, character action is blocked by previous action conditions (such as an attack action prevents character from performing another attack while it is on process). Queue input mechanic will reduce player timing effort to perform series of actions.
 
-Following image explains how Queue input works
-![image](https://github.com/Aluminum18/Dungeon/assets/14157400/19b3cc9d-01c7-4842-994e-7478910e6325)
+Following image explains how Schedule input works.
+![image](https://github.com/Aluminum18/Project-Dungeon-Public-Information/assets/14157400/88e6ed5d-be60-41f7-8cbc-14f307058092)
 
 Retry is not executed every frame, it only does when Character [Abnormal Status](#abnormal-status) changed.
 
