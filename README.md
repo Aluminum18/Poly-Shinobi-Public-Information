@@ -31,7 +31,7 @@ Sometimes, character action is blocked by previous action conditions (such as an
 Following image explains how Queue input works
 ![image](https://github.com/Aluminum18/Dungeon/assets/14157400/19b3cc9d-01c7-4842-994e-7478910e6325)
 
-Retry is not executed every frame, it only does when Character Abnormal Status changed.
+Retry is not executed every frame, it only does when Character [Abnormal Status](#abnormal-status) changed.
 
 Only one input is scheduled. If a new input comes when the old one is not executed, it takes old input place and refresh retry period.
 
@@ -53,12 +53,12 @@ Each behavior could be configured by Behavior Node
 
 ![image](https://github.com/Aluminum18/Dungeon/assets/14157400/3c860007-bedd-4008-8803-4cdc14d22cad)
 
-+ Priority: Only higher priority node can interrupt this behavior.
-+ Decide Interval: This node will try transiting to one of "Next behaviors" every "Decide Interval" seconds.
-+ Active Transit Ratio: Probability of transiting to "Next behaviors" when decide.
-+ Execution Message: Message that will be broadcasted when transit to this node.
-+ Next Behaviors: Behaviors this node can self transit to. Sum of their ratio always equals 1 (auto adjust by editor script)
-+ Next Condition Behaviors: Behaviors this node will transit to if it received "Condition Message".
++ **Priority:** Only higher priority node can interrupt this behavior.
++ **Decide Interval:** This node will try transiting to one of "Next behaviors" every "Decide Interval" seconds.
++ **Active Transit Ratio:** Probability of transiting to "Next behaviors" when decide.
++ **Execution Message:** Message that will be broadcasted when transit to this node.
++ **Next Behaviors:** Behaviors this node can self transit to. Sum of their ratio always equals 1 (auto adjust by editor script)
++ **Next Condition Behaviors:** Behaviors this node will transit to if it received "Condition Message".
 
 ## NPC Local Message
 NPC logical modules communicate by SOMessage.
@@ -68,7 +68,7 @@ NPC logical modules communicate by SOMessage.
 External Deciders decide actions that react situation. Internal Deciders decide self actions, such as an Enemy does Attack B after he finishes Attack A.
 
 ## Patrol
-Configurable patrol points. Unity NavMesh is used
+Configurable patrol points. Unity NavMesh is used.
 
 ![image](https://github.com/Aluminum18/Dungeon/assets/14157400/4f67b05d-ab3d-434b-b8d4-339421c867a6)
 
@@ -76,17 +76,17 @@ Patrol Settings
 
 ![image](https://github.com/Aluminum18/Dungeon/assets/14157400/c9e1fc4c-a06b-4897-b5d9-16625fe1f300)
 
-+ Aware Distance: NPC slowly detects (increase Detect Ratio) player is within this distance and View Angle.
++ **Aware Distance:** NPC slowly detects (increase Detect Ratio) player is within this distance and View Angle.
 
-+ Detect Distance: NPC instantly detects player is within this distance and View Angle.
++ **Detect Distance:** NPC instantly detects player is within this distance and View Angle.
 
-+ View Angle: NPC view angle.
++ **View Angle:** NPC view angle.
 
-+ Detect Rate: How fast Detect Ratio is increased.
++ **Detect Rate:** How fast Detect Ratio is increased.
 
-+ Lose Focus Rate: How fast Detect Ratio is decreased when player is out of view or distance.
++ **Lose Focus Rate:** How fast Detect Ratio is decreased when player is out of view or distance.
 
-+ Detect Ratio: When this value >= 1, NPC will detect player.
++ **Detect Ratio:** When this value >= 1, NPC will detect player.
 
 # Combat
 ## Abnormal Status
@@ -94,6 +94,7 @@ This status could be positive or negative. Abnormal Status limits or expands act
 Check this [clip](https://youtu.be/4DfgSQTKMJs) for detail.
 
 ## Configurable Attack
+Attack properties is configured following frame time to make it match the animation.
 ![image](https://github.com/Aluminum18/Dungeon/assets/14157400/e7e8542d-26e6-49a8-9c1c-4c5a811c0460)
 
 ## Posture
