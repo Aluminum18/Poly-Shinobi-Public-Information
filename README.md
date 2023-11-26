@@ -1,7 +1,7 @@
 # Project Dungeon
 A simple replicate of Sekiro combat mechanic.
 
-See game tutorial [here](https://youtu.be/iV7mBXF9Ndg?si=oKvTUd_OSE4WUoeT) and gameplay [here](https://youtu.be/JArh1JLqMnc?si=iTdxTgAcP_pHYn6M)
+See game tutorial [here](https://youtu.be/iV7mBXF9Ndg?si=oKvTUd_OSE4WUoeT) and gameplay [here](https://youtu.be/_gM8p_pG_7Q)
 # Mechanic Content
 * [General](#general)
   + [Locomotion](#locomotion)
@@ -21,6 +21,9 @@ See game tutorial [here](https://youtu.be/iV7mBXF9Ndg?si=oKvTUd_OSE4WUoeT) and g
   + [Posture](#posture)
   + [Deflect](#deflect)
   + [Perilous Attacks](#perilous-attacks)
+  + [Secondary Weapon](#secondary-weapon)
+  + [Combat Motion Variation](#combat-motion-variation)
+  + [Deathblow Variation](#deathblow-variation)
 
 # General
 ## Locomotion
@@ -104,3 +107,6 @@ In game [clip](https://youtube.com/clip/UgkxIh0gjdpra2cljqOgkvcYhNzpW7geWyCG?si=
 In game [clip](https://youtube.com/clip/UgkxyPnWCCGPHhsUSlm-_vjA9f1fFhiWb-dY?si=P6UP_AoAaVQglerK)
 ## Perilous Attacks
 In game [clip](https://youtube.com/clip/UgkxH8ok6iorMr2kWxos0nf4W7mVAsE0srIy?si=3YLyFm95LF0o54n-)
+## Secondary Weapon
+## Combat Motion Variation
+## Deathblow Variation
