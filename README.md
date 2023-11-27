@@ -53,7 +53,7 @@ Render objects as wireframe when whey obstruct the camera view.
 Check this [clip](https://youtu.be/xuJ9510OPOM) for detail.
 
 ## Screen Alert Indicator
-Check this [clip](https://youtu.be/e4gYmEDRpgQ) for detail.
+A Screen Indicator points to enemy position who is offscreen and aware of player appearance. Check this [clip](https://youtu.be/e4gYmEDRpgQ) for detail.
 
 # NPC
 ## Predictable Behavior Graph
@@ -126,7 +126,7 @@ It is configurable by Node Graph.
 ## Deathblow Variation
 Various deathblows are executed based on the conditions of the enemy. In game [clip](https://youtu.be/zXua75ZcNbI)
 
-The Deathblow setup such as Animation Target Matching, Sound/Visual effect or Event is configurable. All configurations are able to be modified with frame correct.
+The Deathblow settings such as Animation Target Matching, Sound/Visual effect or Event is configurable. All settings are able to be modified with frame correct.
 
 ![image](https://github.com/Aluminum18/Project-Dungeon-Public-Information/assets/14157400/e2b7f72a-4b4e-4052-a86f-b93615d859ea)
 ![image](https://github.com/Aluminum18/Project-Dungeon-Public-Information/assets/14157400/58c9ddae-64b1-448f-a300-520e8d4c5057)
