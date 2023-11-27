@@ -45,7 +45,7 @@ In game [clip](https://youtu.be/CZTMMlZEBQI)
 
 # Camera
 ## Lock Target
-Focus and keep enemy in front of chacter.
+Focus and keep enemy in front of character.
 Check this [clip](https://www.youtube.com/clip/UgkxH7jG2xIonQjabVtlfri0cBDbTRGxhPZD) for detail.
 
 ## Cull obstructing camera view object
@@ -117,7 +117,7 @@ In game [clip](https://youtube.com/clip/UgkxH8ok6iorMr2kWxos0nf4W7mVAsE0srIy?si=
 ## Secondary Weapon
 Support weapons with various function. In game [clip](https://youtu.be/6F2OttIxsrE)
 ## Combat Motion Variation
-The next combat motion is depend on previous motion. In game [clip](https://youtu.be/OsKiRr1BobU)
+The next combat motion is depended on previous motion. In game [clip](https://youtu.be/OsKiRr1BobU)
 
 It is configurable by Node Graph.
 ![image](https://github.com/Aluminum18/Project-Dungeon-Public-Information/assets/14157400/33a01908-e9ec-432d-8591-326ba86b89a9)
