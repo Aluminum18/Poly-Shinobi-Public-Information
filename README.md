@@ -1,7 +1,7 @@
 # Project Dungeon
 A simple replicate of Sekiro combat mechanic.
 
-See game tutorial [here](https://youtu.be/iV7mBXF9Ndg?si=oKvTUd_OSE4WUoeT) and gameplay [here](https://youtu.be/_gM8p_pG_7Q)
+See game tutorial [here](https://youtu.be/iV7mBXF9Ndg?si=oKvTUd_OSE4WUoeT) and gameplay [here](https://youtu.be/gvkhcDLo_fI?si=E_MRaDRHBgVUevdB)
 # Mechanic Content
 * [General](#general)
   + [Locomotion](#locomotion)
@@ -10,6 +10,8 @@ See game tutorial [here](https://youtu.be/iV7mBXF9Ndg?si=oKvTUd_OSE4WUoeT) and g
 * [Camera](#camera)
   + [Lock target](#lock-target)
   + [Cull obstructing camera view object](#cull-obstructing-camera-view-object)
+  + [Screen Alert Indicator](#screen-alert-indicator)
+
  
 * [NPC](#npc)
   + [Predictable Behavior Graph](#predictable-behavior-graph)
@@ -43,10 +45,15 @@ In game [clip](https://youtu.be/CZTMMlZEBQI)
 
 # Camera
 ## Lock Target
+Focus and keep enemy in front of chacter.
 Check this [clip](https://www.youtube.com/clip/UgkxH7jG2xIonQjabVtlfri0cBDbTRGxhPZD) for detail.
 
 ## Cull obstructing camera view object
+Render objects as wireframe when whey obstruct the camera view.
 Check this [clip](https://youtu.be/xuJ9510OPOM) for detail.
+
+## Screen Alert Indicator
+Check this [clip](https://youtu.be/e4gYmEDRpgQ) for detail.
 
 # NPC
 ## Predictable Behavior Graph
@@ -108,5 +115,13 @@ In game [clip](https://youtube.com/clip/UgkxyPnWCCGPHhsUSlm-_vjA9f1fFhiWb-dY?si=
 ## Perilous Attacks
 In game [clip](https://youtube.com/clip/UgkxH8ok6iorMr2kWxos0nf4W7mVAsE0srIy?si=3YLyFm95LF0o54n-)
 ## Secondary Weapon
+Support weapons with various function. In game [clip](https://youtu.be/6F2OttIxsrE)
 ## Combat Motion Variation
+The next combat motion is depend on previous motion. In game [clip](https://youtu.be/OsKiRr1BobU)
+
+It is configurable by Node Graph.
+![image](https://github.com/Aluminum18/Project-Dungeon-Public-Information/assets/14157400/33a01908-e9ec-432d-8591-326ba86b89a9)
+![image](https://github.com/Aluminum18/Project-Dungeon-Public-Information/assets/14157400/ab58207f-d94b-4698-b8e8-0441ef269984)
+
 ## Deathblow Variation
+Various deathblows are executed based on the conditions of the enemy. In game [clip](https://youtu.be/zXua75ZcNbI)
