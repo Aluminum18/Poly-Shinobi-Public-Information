@@ -1,7 +1,7 @@
 # Project Dungeon
 A simple replicate of Sekiro combat mechanic.
 
-See game tutorial [here](https://youtu.be/iV7mBXF9Ndg?si=oKvTUd_OSE4WUoeT) and gameplay [here](https://youtu.be/gvkhcDLo_fI?si=E_MRaDRHBgVUevdB)
+See game tutorial [here](https://youtu.be/iV7mBXF9Ndg?si=oKvTUd_OSE4WUoeT) and gameplay [here](https://youtu.be/STouD9v_t2g)
 # Mechanic Content
 * [General](#general)
   + [Locomotion](#locomotion)
