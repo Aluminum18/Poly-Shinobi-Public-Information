@@ -1,5 +1,5 @@
 # Project Dungeon
-A simple replicate of Sekiro combat mechanic.
+A simple replicate of Sekiro combat mechanic. The project source code is set private because assets used in project is not allowed to distributed. Please share your github account with me via email tranvietan08@gmail.com to get access to the repo.
 
 See game tutorial [here](https://youtu.be/iV7mBXF9Ndg?si=oKvTUd_OSE4WUoeT) and gameplay [here](https://youtu.be/STouD9v_t2g)
 # Mechanic Content
