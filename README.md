@@ -5,6 +5,7 @@ See game tutorial [here](https://youtu.be/Zh1bFNzlsxk) and gameplay [here](https
 # Mechanic Content
 * [General](#general)
   + [Locomotion](#locomotion)
+  + [Restrict movement based on animation](restict-movement-based-on-animation)
   + [Schedule input](#schedule-input)
 
 * [Camera](#camera)
@@ -31,6 +32,12 @@ See game tutorial [here](https://youtu.be/Zh1bFNzlsxk) and gameplay [here](https
 ## Locomotion
 All movements (except jump) are animation driven.
 
+## Restrict movement based on animation
+When a character is near an edge, the game prevents them from accidentally falling off during specific actions, particularly combat maneuvers like attacking or deflecting. This feature ensures that players can focus on combat without the worry of unintentionally falling. However, players retain the ability to jump or run off the edge intentionally, providing them with the freedom to explore and execute these actions as desired.
+
+https://github.com/Aluminum18/Project-Dungeon-Public-Information/assets/14157400/7f909763-a30b-452c-ac23-5423f0fd8bfa
+
+Baked path of unity NavMesh is employed to implement this feature.
 ## Schedule input
 Sometimes, character action is blocked by previous action conditions (such as an attack action prevents character from performing another attack while it is on process). Queue input mechanic will reduce player timing effort to perform series of actions.
 
