@@ -1,4 +1,4 @@
-# Project Dungeon
+# Poly Shinobi
 A simple replicate of Sekiro combat mechanic. The project source code is set private because assets used in project is not allowed to distributed. Please share your github account with me via email tranvietan08@gmail.com to get access to the repo.
 
 See game tutorial [here](https://youtu.be/Zh1bFNzlsxk) and gameplay [here](https://youtu.be/bYoOu8QYICA)
