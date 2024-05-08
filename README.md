@@ -5,14 +5,14 @@ See game tutorial [here](https://youtu.be/Zh1bFNzlsxk) and gameplay [here](https
 # Mechanic Content
 * [General](#general)
   + [Locomotion](#locomotion)
-  + [Restrict movement based on action](restrict-movement-based-on-action)
+  + [Restrict movement based on action](#restrict-movement-based-on-action)
+  + [Grabbling hook](#grabbling-hook)
   + [Schedule input](#schedule-input)
 
 * [Camera](#camera)
   + [Lock target](#lock-target)
   + [Cull obstructing camera view object](#cull-obstructing-camera-view-object)
   + [Screen Alert Indicator](#screen-alert-indicator)
-
  
 * [NPC](#npc)
   + [Predictable Behavior Graph](#predictable-behavior-graph)
@@ -127,8 +127,8 @@ Support weapons with various function. In game [clip](https://youtu.be/6F2OttIxs
 The next combat motion is depended on previous motion. In game [clip](https://youtu.be/OsKiRr1BobU)
 
 It is configurable by Node Graph.
-![image](https://github.com/Aluminum18/Project-Dungeon-Public-Information/assets/14157400/33a01908-e9ec-432d-8591-326ba86b89a9)
-![image](https://github.com/Aluminum18/Project-Dungeon-Public-Information/assets/14157400/ab58207f-d94b-4698-b8e8-0441ef269984)
+![image](https://github.com/Aluminum18/Poly-Shinobi-Public-Information/assets/14157400/3b7cb899-8a3b-4acf-a425-bbb90f7bf7e7)
+
 
 ## Deathblow Variation
 Various deathblows are executed based on the conditions of the enemy. In game [clip](https://youtu.be/zXua75ZcNbI)
