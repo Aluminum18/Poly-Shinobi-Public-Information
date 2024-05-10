@@ -18,6 +18,7 @@ See game tutorial [here](https://youtu.be/Zh1bFNzlsxk) and gameplay [here](https
   + [Predictable Behavior Graph](#predictable-behavior-graph)
   + [NPC Local Message](#npc-local-message)
   + [Patrol](#patrol)
+    
 * [Combat](#combat)
   + [Abnormal Status](#abnormal-status)
   + [Configurable Attack](#configurable-attack)
@@ -27,6 +28,10 @@ See game tutorial [here](https://youtu.be/Zh1bFNzlsxk) and gameplay [here](https
   + [Secondary Weapon](#secondary-weapon)
   + [Combat Motion Variation](#combat-motion-variation)
   + [Deathblow Variation](#deathblow-variation)
+    
+* [Polish]
+  + [Procedural Sword Slash](#procedural-sword-slash)
+  + [Matching Bow String](#matching-bow-string)
 
 # General
 ## Locomotion
@@ -141,7 +146,7 @@ In game [clip](https://youtube.com/clip/UgkxyPnWCCGPHhsUSlm-_vjA9f1fFhiWb-dY?si=
 ## Perilous Attacks
 In game [clip](https://youtube.com/clip/UgkxH8ok6iorMr2kWxos0nf4W7mVAsE0srIy?si=3YLyFm95LF0o54n-)
 ## Secondary Weapon
-Support weapons with various function. In game [clip](https://youtu.be/Vj4cSN3Pdik)
+Support weapons with various function. In game [clip](https://youtu.be/Kjm-vkelwXM)
 
 ## Combat Motion Variation
 The next combat motion is depended on previous motion. In game [clip](https://youtu.be/W-kirPHrDQY)
