@@ -141,7 +141,8 @@ In game [clip](https://youtube.com/clip/UgkxyPnWCCGPHhsUSlm-_vjA9f1fFhiWb-dY?si=
 ## Perilous Attacks
 In game [clip](https://youtube.com/clip/UgkxH8ok6iorMr2kWxos0nf4W7mVAsE0srIy?si=3YLyFm95LF0o54n-)
 ## Secondary Weapon
-Support weapons with various function. In game [clip](https://youtu.be/6F2OttIxsrE)
+Support weapons with various function. In game [clip](https://youtu.be/Vj4cSN3Pdik)
+
 ## Combat Motion Variation
 The next combat motion is depended on previous motion. In game [clip](https://youtu.be/W-kirPHrDQY)
 
