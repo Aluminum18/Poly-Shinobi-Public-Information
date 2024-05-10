@@ -1,7 +1,7 @@
 # Poly Shinobi
 A simple replicate of Sekiro combat mechanic. The project source code is set private because assets used in project is not allowed to distributed. Please share your github account with me via email tranvietan08@gmail.com to get access to the repo.
 
-See game tutorial [here](https://youtu.be/Zh1bFNzlsxk) and gameplay [here](https://youtu.be/bYoOu8QYICA)
+See game tutorial [here](https://youtu.be/Zh1bFNzlsxk) and gameplay [here](https://youtu.be/1nJys1QikOA)
 # Mechanic Content
 * [General](#general)
   + [Locomotion](#locomotion)
@@ -38,6 +38,25 @@ When a character is near an edge, the game prevents them from accidentally falli
 https://github.com/Aluminum18/Project-Dungeon-Public-Information/assets/14157400/7f909763-a30b-452c-ac23-5423f0fd8bfa
 
 Baked path of unity NavMesh is employed to implement this feature.
+
+## Grabbling hook
+
+* Procedural rope hook: Modify rope segments during runtime to create a soft and elastic rope.
+* Hook point indicator: Screen space indicator presents the availability of hook point, supports finding hook point and estimating distance to hook point.
+  
+https://github.com/Aluminum18/Poly-Shinobi-Public-Information/assets/14157400/f29572f0-20a0-4859-89d3-dc011d34bb85
+
+* Editable hook point: Visualize hook point properties to easily set up hook point on the map
+  
+  ![image](https://github.com/Aluminum18/Poly-Shinobi-Public-Information/assets/14157400/74413fd8-c238-47e6-9782-3afd70d53e3e)
+
+  Red and green solid arc indicate horizontal and vertical angle range. Wired red arc indicates the possible landing position after hooking.
+  
+  ![image](https://github.com/Aluminum18/Poly-Shinobi-Public-Information/assets/14157400/7b00fc61-4e14-49b3-af7f-d9ffb6aa2e15)
+  
+  Two wired spheres indicate the active distance (min and max) of hook point.
+  Players can only hook the point if their distance to the hook point is within min and max distance, and their direction is within both horizontal and vertical angle range.
+
 ## Schedule input
 Sometimes, character action is blocked by previous action conditions (such as an attack action prevents character from performing another attack while it is on process). Queue input mechanic will reduce player timing effort to perform series of actions.
 
