@@ -150,7 +150,7 @@ It is configurable by Node Graph.
 
 
 ## Deathblow Variation
-Various deathblows are executed based on the conditions of the enemy. In game [clip](https://youtu.be/zXua75ZcNbI)
+Various deathblows are executed based on the conditions of the enemy. In game [clip](https://youtu.be/9DzbWK651IU?si=ZmlrTVwFePYtVXTk)
 
 The Deathblow settings such as Animation Target Matching, Sound/Visual effect or Event is configurable. All settings are able to be modified with frame correct.
 
