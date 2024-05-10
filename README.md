@@ -29,7 +29,7 @@ See game tutorial [here](https://youtu.be/Zh1bFNzlsxk) and gameplay [here](https
   + [Combat Motion Variation](#combat-motion-variation)
   + [Deathblow Variation](#deathblow-variation)
     
-* [Polish]
+* [Polish](#polish)
   + [Procedural Sword Slash](#procedural-sword-slash)
   + [Matching Bow String](#matching-bow-string)
 
@@ -163,5 +163,22 @@ The Deathblow settings such as Animation Target Matching, Sound/Visual effect or
 ![image](https://github.com/Aluminum18/Project-Dungeon-Public-Information/assets/14157400/e2b7f72a-4b4e-4052-a86f-b93615d859ea)
 ![image](https://github.com/Aluminum18/Project-Dungeon-Public-Information/assets/14157400/58c9ddae-64b1-448f-a300-520e8d4c5057)
 
+# Polish
+## Procedural Sword Slash
+The sword moves very fast during an attack. It only takes 5-10 frames for the sword finishing a swing, so using Unity built-in trail component or generate mesh every frame to form a slash effect will result in a sharp shape (below image).
+
+_Sharp slash effect when using built-in trail component_
+![image](https://github.com/Aluminum18/Poly-Shinobi-Public-Information/assets/14157400/2269db06-7732-49c4-af3f-8a1f193e6a66)
+
+In order to smooth the slash effect, every time the sword moves to a new position, the slash mesh will be updated following interpolated points between previous and new position of the sword. Unity Spline is employed for the interpolation.
+
+_Interpolate and update the slash mesh_
+![image](https://github.com/Aluminum18/Poly-Shinobi-Public-Information/assets/14157400/f4a74317-5bd9-43c2-becb-ffd5ecaaf778)
+
+_Smoother slash mesh by interpolation_
+![image](https://github.com/Aluminum18/Poly-Shinobi-Public-Information/assets/14157400/940d6b0e-26a1-424f-af70-7c0527211644)
+
+## Matching Bow String
+Modify the bow string based on the hand position during the combat motion for better visual effect. In game [clip](https://youtu.be/hYtLWG8zEic)
 
 
