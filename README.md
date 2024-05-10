@@ -143,7 +143,7 @@ In game [clip](https://youtube.com/clip/UgkxH8ok6iorMr2kWxos0nf4W7mVAsE0srIy?si=
 ## Secondary Weapon
 Support weapons with various function. In game [clip](https://youtu.be/6F2OttIxsrE)
 ## Combat Motion Variation
-The next combat motion is depended on previous motion. In game [clip](https://youtu.be/OsKiRr1BobU)
+The next combat motion is depended on previous motion. In game [clip](https://youtu.be/W-kirPHrDQY)
 
 It is configurable by Node Graph.
 ![image](https://github.com/Aluminum18/Poly-Shinobi-Public-Information/assets/14157400/3b7cb899-8a3b-4acf-a425-bbb90f7bf7e7)
