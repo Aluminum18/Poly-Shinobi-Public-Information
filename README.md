@@ -5,13 +5,13 @@ See game tutorial [here](https://youtu.be/Zh1bFNzlsxk) and gameplay [here](https
 # Mechanic Content
 * [General](#general)
   + [Locomotion](#locomotion)
-  + [Restrict movement based on action](#restrict-movement-based-on-action)
-  + [Grabbling hook](#grabbling-hook)
-  + [Schedule input](#schedule-input)
+  + [Restrict Movement Based On Action](#restrict-movement-based-on-action)
+  + [Grabbling Hook](#grabbling-hook)
+  + [Schedule Input](#schedule-input)
 
 * [Camera](#camera)
-  + [Lock target](#lock-target)
-  + [Cull obstructing camera view object](#cull-obstructing-camera-view-object)
+  + [Lock Target](#lock-target)
+  + [Cull Obstructing Camera View Object](#cull-obstructing-camera-view-object)
   + [Screen Alert Indicator](#screen-alert-indicator)
  
 * [NPC](#npc)
@@ -32,14 +32,14 @@ See game tutorial [here](https://youtu.be/Zh1bFNzlsxk) and gameplay [here](https
 ## Locomotion
 All movements (except jump) are animation driven.
 
-## Restrict movement based on action
+## Restrict Movement Based On Action
 When a character is near an edge, the game prevents them from accidentally falling off during specific actions, particularly combat maneuvers like attacking or deflecting. This feature ensures that players can focus on combat without the worry of unintentionally falling. However, players retain the ability to jump or run off the edge intentionally, providing them with the freedom to explore and execute these actions as desired.
 
 https://github.com/Aluminum18/Project-Dungeon-Public-Information/assets/14157400/7f909763-a30b-452c-ac23-5423f0fd8bfa
 
 Baked path of unity NavMesh is employed to implement this feature.
 
-## Grabbling hook
+## Grabbling Hook
 
 * Procedural rope hook: Modify rope segments during runtime to create a soft and elastic rope.
 * Hook point indicator: Screen space indicator presents the availability of hook point, supports finding hook point and estimating distance to hook point.
@@ -57,7 +57,7 @@ https://github.com/Aluminum18/Poly-Shinobi-Public-Information/assets/14157400/f2
   Two wired spheres indicate the active distance (min and max) of hook point.
   Players can only hook the point if their distance to the hook point is within min and max distance, and their direction is within both horizontal and vertical angle range.
 
-## Schedule input
+## Schedule Input
 Sometimes, character action is blocked by previous action conditions (such as an attack action prevents character from performing another attack while it is on process). Queue input mechanic will reduce player timing effort to perform series of actions.
 
 Following image explains how Schedule input works.
@@ -74,7 +74,7 @@ In game [clip](https://youtu.be/CZTMMlZEBQI)
 Focus and keep enemy in front of character.
 Check this [clip](https://www.youtube.com/clip/UgkxH7jG2xIonQjabVtlfri0cBDbTRGxhPZD) for detail.
 
-## Cull obstructing camera view object
+## Cull Obstructing Camera View Object
 Render objects as wireframe when whey obstruct the camera view.
 Check this [clip](https://youtu.be/xuJ9510OPOM) for detail.
 
