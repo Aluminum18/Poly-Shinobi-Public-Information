@@ -46,7 +46,7 @@ Baked path of unity NavMesh is employed to implement this feature.
 
 ## Grabbling Hook
 
-* Procedural rope hook: Modify rope segments during runtime to create a soft and elastic rope.
+* Procedural hook rope: Modify rope segments during runtime to create a soft and elastic rope.
 * Hook point indicator: Screen space indicator presents the availability of hook point, supports finding hook point and estimating distance to hook point.
   
 https://github.com/Aluminum18/Poly-Shinobi-Public-Information/assets/14157400/f29572f0-20a0-4859-89d3-dc011d34bb85
